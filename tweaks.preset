@@ -47,18 +47,19 @@ DisableShortcutInName # 不在快捷方式最后面添加一个“- 快捷方式
 SetAppsDarkMode
 SetSystemDarkMode
 AddENKeyboard
-DisableEnhPointerPrecision
-DisableF1HelpKey
+# DisableEnhPointerPrecision
+# DisableF1HelpKey
 
 # Explorer UI
 ShowKnownExtensions
 ShowHiddenFiles
-# EnableNavPaneExpand  # Explorer 侧边导航栏自动展开到当前文件夹
+# EnableNavPaneExpand  # Explorer 
 HideSyncNotifications
 HideRecentShortcuts
-SetExplorerThisPC  # Win + E 打开“此电脑”而不是“快速访问”
+SetExplorerThisPC  # Win + E
 HideThisPCFromDesktop
 HideDesktopFromThisPC
+
 HideDocumentsFromThisPC
 HideDocumentsFromExplorer
 HideDownloadsFromThisPC

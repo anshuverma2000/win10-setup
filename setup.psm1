@@ -213,8 +213,7 @@ Function ManualInstallApp($notInstalledApps) {
             PrintInfo "$app"
         }
     } }
-    }
-}
+
 
 # clone essential git repository
 Function CloneGitRepos($gitRepos) {

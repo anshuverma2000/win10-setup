@@ -39,7 +39,7 @@ ShowTaskManagerDetails
 HideTaskbarSearch
 HideTaskView  # 任务栏的任务视图按钮
 ShowSmallTaskbarIcons
-SetTaskbarCombineNever
+# SetTaskbarCombineNever
 HideTaskbarPeopleIcon
 DisableSearchAppInStore
 DisableNewAppPrompt
@@ -57,19 +57,20 @@ ShowHiddenFiles
 HideSyncNotifications
 HideRecentShortcuts
 SetExplorerThisPC  # Win + E
+
 HideThisPCFromDesktop
 HideDesktopFromThisPC
 
-HideDocumentsFromThisPC
-HideDocumentsFromExplorer
-HideDownloadsFromThisPC
-HideDownloadsFromExplorer
+# HideDocumentsFromThisPC
+# HideDocumentsFromExplorer
+# HideDownloadsFromThisPC
+# HideDownloadsFromExplorer
 HideMusicFromThisPC
 HideMusicFromExplorer
-HidePicturesFromThisPC
-HidePicturesFromExplorer
-HideVideosFromThisPC
-HideVideosFromExplorer
+# HidePicturesFromThisPC
+# HidePicturesFromExplorer
+# HideVideosFromThisPC
+# HideVideosFromExplorer
 Hide3DObjectsFromThisPC
 Hide3DObjectsFromExplorer
 HideIncludeInLibraryMenu
@@ -78,9 +79,9 @@ HideIncludeInLibraryMenu
 DisableOneDrive
 UninstallOneDrive
 UninstallThirdPartyBloat
-DisableXboxFeatures
+# 3DisableXboxFeatures
 DisableAdobeFlash
-DisableEdgeShortcutCreation
+# DisableEdgeShortcutCreation
 DisableIEFirstRun
 DisableMediaSharing
 EnableDeveloperMode

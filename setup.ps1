@@ -49,8 +49,6 @@ $wingetApps = @(
     "Microsoft.VisualStudioCode",
     "Microsoft.Edge",
 
-
-
     "Git.Git",
     "Lexikos.AutoHotkey",
 
@@ -96,7 +94,7 @@ Import-Module -Name "./setup.psm1" -ErrorAction Stop
 # system settings
 RequireAdmin
 CreateTmpDir
-ActivateWin10
+# ActivateWin10
 RenameComputerName
 setPowerSettings
 executeTweaks("Tweaks")
@@ -122,7 +120,7 @@ WaitForKey
 
 # environment settings
 SetGitNameAndEmail
-EnableGitProxy(10809)
+# EnableGitProxy(10809)
 EnableNpmRegistry
 # InstallWindowsBuildTools
 

@@ -67,10 +67,10 @@ $wingetApps = @(
 $chocoApps = @(
     "v2ray",
     "traffic-monitor",
-    "nvm.portable"
-    "aria2"
+    "nvm.portable",
+    "aria2",
     # "ffmpeg",
-    "freefilesync",
+    "freefilesync"
     # "setpoint",
 )
 $npmPackages = @(
@@ -83,7 +83,7 @@ $gitRepos = @(
 # add -url can download by wget
 # Do not add extra spaces to separate app name
 $notInstalledApps = @(
-    "WSL",
+    "WSL"
 )
 
 ##########

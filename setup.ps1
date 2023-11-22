@@ -47,7 +47,7 @@ $wingetApps = @(
     "Bandisoft.Honeyview",
 
     "Microsoft.VisualStudioCode",
-    "Microsoft.Edge",
+    
 
     "Git.Git",
     "Lexikos.AutoHotkey",
@@ -55,12 +55,42 @@ $wingetApps = @(
     "VideoLAN.VLC", # seems that the download is slow, and easy to report errors？
     # "OBSProject.OBSStudio",
     "c0re100.qBittorrent-Enhanced-Edition",
-
     "SyncTrayzor.SyncTrayzor",
-
     "Microsoft.WindowsTerminal",
+    "Anaconda.Anaconda3",
+
+    # Browsers
     "Google.Chrome",
-    "Anaconda.Miniconda3"
+    "Microsoft.Edge",
+    "Mozilla.Firefox",
+    "Brave.Brave",
+
+    "Readdle.Spark",
+    "Python",
+    "Microsoft.PowerToys",
+    "tailscale.tailscale",
+    "AntibodySoftware.WizTree",
+    "RARLab.WinRAR",
+    
+    # Music
+    "Spotify.Spotify",
+    "9NBLGGH1RRH1", # jio saavn
+    "Shabinder.SpotiFlyer",
+
+    "9NKSQGP7F2NH", # Whatsapp
+    "ProtonTechnologies.ProtonVPN",
+    
+    "Docker.DockerDesktop",
+    "HandBrake.HandBrake",
+    "Safing.Portmaster",
+    "Appest.TickTick",
+    "drakkan.SFTPGo",
+    "Google.GoogleDrive",
+    "Nvidia.GeForceExperience" ,
+    "Nvidia.PhysX",
+    "Famatech.AdvancedIPScanner",
+
+    "GlassWire.GlassWire"
 )
 $chocoApps = @(
     "v2ray",

@@ -119,7 +119,7 @@ $notInstalledApps = @(
 ##########
 
 # import .psm1 module
-Import-Module -Name "./setup.psm1" -ErrorAction Stop
+Import-Module -Name "./setup.psm1" -ErrorAction Stop   # may require the full path to the setup.psm1 instead of just ./setup.psm1
 
 # system settings
 RequireAdmin

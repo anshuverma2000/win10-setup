@@ -244,8 +244,8 @@ Function DisableGlobalProxy() {
 
 Function SetGitNameAndEmail() {
     if (CheckCommand -cmdname 'git') {
-        git config --global user.name ceynri
-        git config --global user.email "ceynri@gmail.com"
+        git config --global user.name Anshu
+        git config --global user.email "anshuverma2100@gmail.com"
     }
     else {
         PrintError "Can not find 'git' command, skip set git name and email."
